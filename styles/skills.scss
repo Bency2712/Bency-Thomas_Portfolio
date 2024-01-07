@@ -1,0 +1,52 @@
+section#skills{
+   //background-color: #6d0f3b;
+   //rgb(16, 22, 45);
+   background-color: #6d0f3b;
+    padding-bottom: 100px;
+}
+
+section#skills h2{
+    text-align:center;
+}
+
+//lets put all the skills as grid with 4 columns, you can either do grid-template-columns: 1fr 1fr 1fr 1fr or use repeat function(4 times 1 fr)
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    //we need some gap between the image and the container
+    gap: 20px;
+
+}
+
+.skill-box {
+    opacity: 0;
+    transition: all .4s linear;
+    background-color: #630732;;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    left: -20px;
+    span{
+        display:block;
+    }
+
+}
+
+.skills-container.visible .skill-box{
+    opacity: 1;
+    left: 0;
+}
+
+//all the images should show up one by one, so for each image we will do it
+@for $i from 1 through 20
+{
+    .skill-box:nth-child(#{$i + 1}){transition-delay: #{$i * .1s}};
+}
+
+
+//between the image and the text we need some space
+.skill-box img{
+    display: inline-block;
+    margin-bottom: 10px;
+    max-width: 60px;
+}

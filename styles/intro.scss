@@ -1,0 +1,86 @@
+@import 'globals';
+section#intro
+{
+    max-width: 780px;
+    margin: 0 auto;
+    /*to have the description on the left and the picture on the right*/
+    display: flex;
+     /*to bring all the items to the center*/
+     align-items: center;
+     /*to align the image to the right*/
+     justify-content: space-between;
+     font-size: 1.7rem;
+     
+}
+
+/*Style the text*/
+
+section#intro p{
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 2 rem;
+    line-height: 2.6rem;
+    //in the beginning the opacity of the paragraph will be 0
+    opacity: 0;
+
+    //when the page gets refreshed the paragraph will move from left to right
+    transition: all 0.3s linear;
+    position: relative;
+    left: -50px;
+   
+}
+section#intro.visible p{
+    opacity: 1;
+        //when the page gets refreshed the paragraph will move from left to right
+    left: 0;
+}
+
+
+section#intro a{
+    border:3px solid $gold;
+    border-radius: 7px;
+    color: $gold;
+    /*to remove underline from the text*/
+    text-decoration: none;
+    padding: 10px 20px;
+    //add margin after the previous line
+    display: inline-block;
+    margin-top: 20px ;
+    font-size: 1.4rem;
+
+     //when the page gets refreshed the button contact will move from top to bottom
+     transition: all 0.3s linear;
+     position: relative;
+     opacity: 0;
+     top: -50px;
+}
+
+section#intro.visible a{
+    top: 0;
+    opacity: 1;
+}
+
+/*style my name*/
+section#intro span{
+    color:#b9c384;
+    font-family: 'Kalnia', serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    /*adding extra spacing*/
+    
+}
+
+/*Make the image smaller*/
+section#intro img{
+    max-width: 250px;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+/*if the section intro has class visible then the opacity should be 1*/
+section#intro.visible img{
+    opacity:1;
+}
+
+
+

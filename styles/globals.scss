@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia:wght@500;600&family=PT+Serif&family=Playfair+Display:wght@600&family=Roboto:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* this will include border padding and box*/
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #630732;
+    //rgb(14,21,47);
+   
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+    overflow-x: hidden;
+}
+
+//to make all the elements in the center and keep equal margin for all the sections
+.center{
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+
+//all the sections have a similar header
+h2{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+$gold: #FAC86B;

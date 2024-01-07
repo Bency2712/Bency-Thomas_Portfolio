@@ -1,0 +1,54 @@
+header{
+    display:flex;
+    /*to center all the pages*/
+    max-width: 780px;
+    margin: 0 auto;
+    /*to center the icons*/
+    align-items: center;
+    /*to add some spacing from the top*/
+    padding-top: 20px;
+
+    img{
+        max-width: 40px;
+        
+    }
+
+    .logo{
+        fill: $gold;
+    }
+}
+
+/*the navigation should take as much space as possible and push the links to th right*/
+header nav{
+    flex-grow: 1;
+    /*add the text in the center*/
+    text-align: center;
+}
+
+/*Links are not visioble, they should be greyish and when we hover, it should become white*/
+header nav a{
+color: $gold;
+/*to add spacing between about, portfolio and contact, so we add 10px on the top and bottom, and then 10px on the left and right*/
+padding: 10px 10px;
+text-decoration: none;
+}
+
+/*when we hover, it should become white*/
+header nav a:hover{
+    color: antiquewhite;
+}
+
+header div.social a {
+     /*the height of the atag is much smaller than the svg inside*/
+     display: inline-block;
+}
+header div.social a svg{
+    /**/
+    height: 20px;
+    fill: $gold;
+    /*the height of the atag is much smaller than the svg inside*/
+    display: inline-block;
+    /*to add spacing between icons*/
+    margin: 0 10px;
+
+}
