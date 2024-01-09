@@ -32,6 +32,12 @@ section#projects h2{
 section#projects.visible a{
     opacity: 1;
     left: 0;
+    text-decoration: none;
+    color: antiquewhite;
+
+    img{
+        width: 100px;
+    }
 }
 
 

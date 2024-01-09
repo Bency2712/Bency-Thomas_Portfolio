@@ -13,8 +13,8 @@ const [classes, setClasses]= useState('');
     <section id="intro" className={classes}>
     <div>
     {/*to use apostrophe, we can use &apos;*/}
-      <p>I&apos;m <span>Bency Thomas</span> <br /> Software Engineer,<br /> Full Stack Development enthusiast </p>
-    <a href=""> Contact Me</a>
+      <p>I&apos;m <span>Bency Thomas</span> <br /> a Software Engineer,<br />with a keen interest in Full Stack Development.</p>
+    <a href="#contact"> Contact Me</a>
     
     </div>
     <div>
