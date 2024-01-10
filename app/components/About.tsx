@@ -5,7 +5,9 @@ export default function About(){
     <section id="about">
         <div className="center">
             <h2>About</h2>
-            <p>My profession summary</p>
+            <p>My journey revolves around the art of crafting and transforming ideas into tangible projects. 
+              Currently exploring the realms of Full Stack Development, <br /> I am dedicated to learning and contributing to the exciting field of technology. 
+              Let's embark on this coding adventure together and bring innovative ideas to life!</p>
         </div>
     </section>
   );
