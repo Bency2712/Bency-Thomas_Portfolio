@@ -3,10 +3,10 @@ export default function Projects() {
     const [extraClasses2,setExtraClasses2] = useState('');
     return(
         
-        <section id="project">
+        <section id="projects">
         <div className="center">
             <h2>Projects</h2>
-            <div className={extraClasses2 + "project-container"}>
+            <div className={extraClasses2 + "projects-container"}>
             <div className="project-box"><a href="https://nest-quest-accomodation-booking.vercel.app"><img src="/img/NestQuest.jpg" alt="" /> </a><span>NestQuest</span></div>
             <div className="project-box"><a href="https://github.com/Bency2712/"><img src="/img/splitsmart.png" alt="" /></a><span>Splitsmart</span></div>
             <div className="project-box"><a href="https://github.com/Bency2712/Code-Smell-Detection-using-CNN"><img src="/img/code_smell_detection.png" alt="" /></a><span>Code smell detection</span></div>
