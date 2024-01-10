@@ -28,6 +28,10 @@ export default function Home() {
     const targetElement=document.querySelector('div.skills-container');
     if(targetElement)
     {observer.observe(targetElement);}
+
+    const targetElement2=document.querySelector('div.projects-container');
+    if(targetElement2)
+    {observer.observe(targetElement2);}
     
     //this is for all the sections
 document.querySelectorAll('section').forEach(elem => {

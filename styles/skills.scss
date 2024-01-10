@@ -1,7 +1,7 @@
 section#skills{
-   //background-color: #6d0f3b;
+    background-color: $color2;
    //rgb(16, 22, 45);
-   background-color: #6d0f3b;
+   //background-color: #6d0f3b;
     padding-bottom: 100px;
 }
 
@@ -21,7 +21,9 @@ section#skills h2{
 .skill-box {
     opacity: 0;
     transition: all .4s linear;
-    background-color: #630732;;
+    background-color: $color3;
+    //background-color: black;
+    //background-color: #630732;
     padding: 40px;
     text-align: center;
     border-radius: 10px;

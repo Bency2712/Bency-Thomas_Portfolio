@@ -15,11 +15,14 @@ section#contact{
         margin-left:-175px ;
         display: inline-block;
         padding: 0 30px;
-        background-color:#6d0f3b ;
+        border-radius: 15px;
+        background-color: $color3;
+        //background-color:#6d0f3b ;
     }
     div.box
     {
-        background-color: #6d0f3b;
+        background-color: $color3;
+        //background-color: #6d0f3b;
         display: inline-flex;
         align-items: center;
         width: 300px;

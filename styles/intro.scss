@@ -1,6 +1,7 @@
 @import 'globals';
 section#intro
 {
+    
     max-width: 780px;
     margin: 0 auto;
     /*to have the description on the left and the picture on the right*/
@@ -16,7 +17,7 @@ section#intro
 /*Style the text*/
 
 section#intro p{
-    
+    padding-top: 100px;
     font-family: 'Playfair Display', serif;
     font-size: 2 rem;
     line-height: 2.6rem;
@@ -62,6 +63,7 @@ section#intro.visible a{
 
 /*style my name*/
 section#intro span{
+    
     color:#b9c384;
     font-family: 'Kalnia', serif;
     font-size: 3.2rem;
@@ -72,7 +74,8 @@ section#intro span{
 
 /*Make the image smaller*/
 section#intro img{
-    max-width: 250px;
+   // padding-left: 10px;
+    max-width: 175px;
     opacity: 0;
     transition: opacity 0.5s linear;
 }

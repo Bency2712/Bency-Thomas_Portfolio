@@ -18,7 +18,7 @@ const [classes, setClasses]= useState('');
     
     </div>
     <div>
-      <img src='/img/me.JPG'></img>
+      <img src='/img/me2.JPG'></img>
     </div>
 
   </section>
