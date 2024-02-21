@@ -8,6 +8,8 @@ export default function Header(){
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          {/*  File id: 1DyWjmMfHH_xWKqOlvNajzpH3rE1hmLms */}
+          <a href="https://drive.google.com/uc?export=download&id=1DyWjmMfHH_xWKqOlvNajzpH3rE1hmLms" download="Bency Thomas_Resume_.pdf">Resume</a>
         </nav>
 
         <div className='social'>
